@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837C58F91980E5AA00108136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C58F81980E5AA00108136 /* Foundation.framework */; };
+		837C58FB1980E5AA00108136 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C58FA1980E5AA00108136 /* CoreGraphics.framework */; };
+		837C58FD1980E5AA00108136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C58FC1980E5AA00108136 /* UIKit.framework */; };
+		837C59031980E5AA00108136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 837C59011980E5AA00108136 /* InfoPlist.strings */; };
+		837C59051980E5AA00108136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C59041980E5AA00108136 /* main.m */; };
+		837C59091980E5AA00108136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C59081980E5AA00108136 /* AppDelegate.m */; };
+		837C590C1980E5AA00108136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837C590A1980E5AA00108136 /* Main.storyboard */; };
+		837C590F1980E5AA00108136 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C590E1980E5AA00108136 /* ViewController.m */; };
+		837C59111980E5AA00108136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837C59101980E5AA00108136 /* Images.xcassets */; };
+		837C59181980E5AA00108136 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C59171980E5AA00108136 /* XCTest.framework */; };
+		837C59191980E5AA00108136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C58F81980E5AA00108136 /* Foundation.framework */; };
+		837C591A1980E5AA00108136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C58FC1980E5AA00108136 /* UIKit.framework */; };
+		837C59221980E5AA00108136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 837C59201980E5AA00108136 /* InfoPlist.strings */; };
+		837C59241980E5AA00108136 /* CrazySoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 837C59231980E5AA00108136 /* CrazySoundTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		837C591B1980E5AA00108136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837C58ED1980E5A900108136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 837C58F41980E5AA00108136;
+			remoteInfo = CrazySound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837C58F51980E5AA00108136 /* CrazySound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazySound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837C58F81980E5AA00108136 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		837C58FA1980E5AA00108136 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		837C58FC1980E5AA00108136 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		837C59001980E5AA00108136 /* CrazySound-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazySound-Info.plist"; sourceTree = "<group>"; };
+		837C59021980E5AA00108136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		837C59041980E5AA00108136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		837C59061980E5AA00108136 /* CrazySound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazySound-Prefix.pch"; sourceTree = "<group>"; };
+		837C59071980E5AA00108136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		837C59081980E5AA00108136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		837C590B1980E5AA00108136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		837C590D1980E5AA00108136 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		837C590E1980E5AA00108136 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		837C59101980E5AA00108136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		837C59161980E5AA00108136 /* CrazySoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazySoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		837C59171980E5AA00108136 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		837C591F1980E5AA00108136 /* CrazySoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazySoundTests-Info.plist"; sourceTree = "<group>"; };
+		837C59211980E5AA00108136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		837C59231980E5AA00108136 /* CrazySoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazySoundTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		837C58F21980E5AA00108136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C58FB1980E5AA00108136 /* CoreGraphics.framework in Frameworks */,
+				837C58FD1980E5AA00108136 /* UIKit.framework in Frameworks */,
+				837C58F91980E5AA00108136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837C59131980E5AA00108136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C59181980E5AA00108136 /* XCTest.framework in Frameworks */,
+				837C591A1980E5AA00108136 /* UIKit.framework in Frameworks */,
+				837C59191980E5AA00108136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		837C58EC1980E5A900108136 = {
+			isa = PBXGroup;
+			children = (
+				837C58FE1980E5AA00108136 /* CrazySound */,
+				837C591D1980E5AA00108136 /* CrazySoundTests */,
+				837C58F71980E5AA00108136 /* Frameworks */,
+				837C58F61980E5AA00108136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		837C58F61980E5AA00108136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				837C58F51980E5AA00108136 /* CrazySound.app */,
+				837C59161980E5AA00108136 /* CrazySoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		837C58F71980E5AA00108136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				837C58F81980E5AA00108136 /* Foundation.framework */,
+				837C58FA1980E5AA00108136 /* CoreGraphics.framework */,
+				837C58FC1980E5AA00108136 /* UIKit.framework */,
+				837C59171980E5AA00108136 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		837C58FE1980E5AA00108136 /* CrazySound */ = {
+			isa = PBXGroup;
+			children = (
+				837C59071980E5AA00108136 /* AppDelegate.h */,
+				837C59081980E5AA00108136 /* AppDelegate.m */,
+				837C590A1980E5AA00108136 /* Main.storyboard */,
+				837C590D1980E5AA00108136 /* ViewController.h */,
+				837C590E1980E5AA00108136 /* ViewController.m */,
+				837C59101980E5AA00108136 /* Images.xcassets */,
+				837C58FF1980E5AA00108136 /* Supporting Files */,
+			);
+			path = CrazySound;
+			sourceTree = "<group>";
+		};
+		837C58FF1980E5AA00108136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837C59001980E5AA00108136 /* CrazySound-Info.plist */,
+				837C59011980E5AA00108136 /* InfoPlist.strings */,
+				837C59041980E5AA00108136 /* main.m */,
+				837C59061980E5AA00108136 /* CrazySound-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837C591D1980E5AA00108136 /* CrazySoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				837C59231980E5AA00108136 /* CrazySoundTests.m */,
+				837C591E1980E5AA00108136 /* Supporting Files */,
+			);
+			path = CrazySoundTests;
+			sourceTree = "<group>";
+		};
+		837C591E1980E5AA00108136 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				837C591F1980E5AA00108136 /* CrazySoundTests-Info.plist */,
+				837C59201980E5AA00108136 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		837C58F41980E5AA00108136 /* CrazySound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837C59271980E5AA00108136 /* Build configuration list for PBXNativeTarget "CrazySound" */;
+			buildPhases = (
+				837C58F11980E5AA00108136 /* Sources */,
+				837C58F21980E5AA00108136 /* Frameworks */,
+				837C58F31980E5AA00108136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazySound;
+			productName = CrazySound;
+			productReference = 837C58F51980E5AA00108136 /* CrazySound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		837C59151980E5AA00108136 /* CrazySoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 837C592A1980E5AA00108136 /* Build configuration list for PBXNativeTarget "CrazySoundTests" */;
+			buildPhases = (
+				837C59121980E5AA00108136 /* Sources */,
+				837C59131980E5AA00108136 /* Frameworks */,
+				837C59141980E5AA00108136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				837C591C1980E5AA00108136 /* PBXTargetDependency */,
+			);
+			name = CrazySoundTests;
+			productName = CrazySoundTests;
+			productReference = 837C59161980E5AA00108136 /* CrazySoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837C58ED1980E5A900108136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					837C59151980E5AA00108136 = {
+						TestTargetID = 837C58F41980E5AA00108136;
+					};
+				};
+			};
+			buildConfigurationList = 837C58F01980E5AA00108136 /* Build configuration list for PBXProject "CrazySound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 837C58EC1980E5A900108136;
+			productRefGroup = 837C58F61980E5AA00108136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				837C58F41980E5AA00108136 /* CrazySound */,
+				837C59151980E5AA00108136 /* CrazySoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		837C58F31980E5AA00108136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C59111980E5AA00108136 /* Images.xcassets in Resources */,
+				837C59031980E5AA00108136 /* InfoPlist.strings in Resources */,
+				837C590C1980E5AA00108136 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837C59141980E5AA00108136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C59221980E5AA00108136 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		837C58F11980E5AA00108136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C590F1980E5AA00108136 /* ViewController.m in Sources */,
+				837C59091980E5AA00108136 /* AppDelegate.m in Sources */,
+				837C59051980E5AA00108136 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837C59121980E5AA00108136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837C59241980E5AA00108136 /* CrazySoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		837C591C1980E5AA00108136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 837C58F41980E5AA00108136 /* CrazySound */;
+			targetProxy = 837C591B1980E5AA00108136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		837C59011980E5AA00108136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837C59021980E5AA00108136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		837C590A1980E5AA00108136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837C590B1980E5AA00108136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		837C59201980E5AA00108136 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				837C59211980E5AA00108136 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		837C59251980E5AA00108136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		837C59261980E5AA00108136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		837C59281980E5AA00108136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySound/CrazySound-Prefix.pch";
+				INFOPLIST_FILE = "CrazySound/CrazySound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		837C59291980E5AA00108136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySound/CrazySound-Prefix.pch";
+				INFOPLIST_FILE = "CrazySound/CrazySound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		837C592B1980E5AA00108136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazySound.app/CrazySound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySound/CrazySound-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrazySoundTests/CrazySoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		837C592C1980E5AA00108136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrazySound.app/CrazySound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazySound/CrazySound-Prefix.pch";
+				INFOPLIST_FILE = "CrazySoundTests/CrazySoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		837C58F01980E5AA00108136 /* Build configuration list for PBXProject "CrazySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837C59251980E5AA00108136 /* Debug */,
+				837C59261980E5AA00108136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		837C59271980E5AA00108136 /* Build configuration list for PBXNativeTarget "CrazySound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837C59281980E5AA00108136 /* Debug */,
+				837C59291980E5AA00108136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		837C592A1980E5AA00108136 /* Build configuration list for PBXNativeTarget "CrazySoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				837C592B1980E5AA00108136 /* Debug */,
+				837C592C1980E5AA00108136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837C58ED1980E5A900108136 /* Project object */;
+}
